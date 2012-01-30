@@ -1,0 +1,1 @@
+javascript:(function () { alert('Our velocity for the current iteration is: '.concat($('div.list:eq(3) .list-card-area .list-card .yellow-label').size() + $('div.list:eq(3) .list-card-area .list-card .orange-label').size() * 2 + $('div.list:eq(3) .list-card-area .list-card .purple-label').size() * 3)) })();
